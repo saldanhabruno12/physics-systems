@@ -112,7 +112,7 @@ class MenuFisica:
 
         botao_relatorio = tk.Button(
             principal,
-            text="Ler relatório  (.md)     →",
+            text="Ler relatório       →",
             command=self._abrir_relatorio,
             bg=CORES["azul"],
             fg=CORES["fundo"],
